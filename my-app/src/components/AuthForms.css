@@ -1,0 +1,86 @@
+
+.auth-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .auth-container h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333333;
+  }
+  
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container form div {
+    margin-bottom: 20px;
+  }
+  
+  .auth-container form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .auth-container form input[type="email"],
+  .auth-container form input[type="password"] {
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+  }
+  
+  .auth-container form input[type="email"]:focus,
+  .auth-container form input[type="password"]:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+  
+  .auth-container form button {
+    padding: 14px 24px;
+    background-color: #1e98cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .auth-container form button:hover {
+    background-color: #45a049;
+    transform: scale(1.02);
+  }
+  
+  
+  .auth-container p {
+    text-align: center;
+    margin-top: 20px;
+    color: #666666;
+  }
+  
+  .auth-container p a {
+    color: #33b0e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .auth-container p a:hover {
+    color: #45a049;
+  }
+  

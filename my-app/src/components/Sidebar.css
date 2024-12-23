@@ -1,0 +1,51 @@
+
+.sidebar {
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #6746d5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: left 0.3s ease;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.toggle-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.links a {
+  padding: 12px 20px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.links a:hover {
+  background-color: #932929;
+}
+
+.sidebar.open {
+  left: 0;
+}
